@@ -1,0 +1,38 @@
+{% extends 'toasauti/base.html' %}
+
+{% block title %}
+    About Us
+{% endblock %}
+
+  {% block navbar %}
+   <div class="navbar-fixed">
+
+	<nav class="teal z-depth-3">
+		<div class="nav-wrapper">
+			<a href="{% url 'home' %}" class="brand-logo white-text">Toa Sauti</a>
+			<a href="#mobile-demo" data-activates="mobile-demo" class="button-collapse">
+			<i class="material-icons white-text">menu</i> </a>
+
+			<ul class="right hide-on-med-and-down">
+                <li> <a href="{% url 'home' %}" class="white-text"> Home </a> </li>
+                <li> <a href="{% url 'new_report' %}" class="white-text"> Report </a> </li>
+			</ul>
+
+			<ul class="side-nav" id="mobile-demo" style="opacity: 0.8;">
+				<li> <a href="{% url 'home' %}"> Home </a> </li>
+				<li> <a href="{% url 'new_report' %}"> Report </a> </li>
+			</ul>
+		</div>
+	</nav>
+
+</div>
+
+  {% endblock %}
+
+{% block content %}
+
+    <div class="container">
+
+    </div>
+
+{% endblock %}

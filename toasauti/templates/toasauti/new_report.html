@@ -1,0 +1,139 @@
+{% extends 'toasauti/base.html' %}
+
+{% block title %}
+    New Report
+{% endblock %}
+
+  {% block navbar %}
+   <div class="navbar-fixed">
+
+	<nav class="teal z-depth-3">
+		<div class="nav-wrapper">
+			<a href="{% url 'home' %}" class="brand-logo white-text">Toa Sauti</a>
+			<a href="#mobile-demo" data-activates="mobile-demo" class="button-collapse">
+			<i class="material-icons white-text">menu</i> </a>
+
+			<ul class="right hide-on-med-and-down">
+				<li> <a href="{% url 'home' %}" class="white-text"> Home </a> </li>
+				<li> <a href="{% url 'about' %}" class="white-text"> About </a> </li>
+			</ul>
+
+			<ul class="side-nav white black-text" id="mobile-demo" style="opacity: 0.8;">
+				<li> <a href="{% url 'home' %}"> Home </a> </li>
+				<li> <a href="{% url 'about' %}"> About </a> </li>
+			</ul>
+		</div>
+	</nav>
+
+</div>
+
+  {% endblock %}
+
+{% block content %}
+
+    <div class="container" style="padding: 20px;">
+
+    <div class="row">
+        <p class="center"> Please fill in the form below with the details of the incident you wish to report </p>
+    </div>
+    <form method="post" action="{% url 'create_report' %}" id="" enctype="multipart/form-data">
+        {%  csrf_token %}
+        <fieldset id="fieldset" style="padding: 10px; margin: 0 auto;">
+          <label for="fieldset"> <h5>Offence Details</h5> </label>
+            <div class="row">
+
+              <div class="input-field col s12 m4 l4">
+                <input name="carRegNo" id="carRegNo" type="text" required>
+                <label for="carRegNo">Car Registration Number</label>
+            </div>
+            <div class="input-field col s12 m4 l4">
+                <select name="vehicleType" id="vehicleType">
+                    <option value="">Type of vehicle</option>
+                    <option value="PR">Private Vehicle</option>
+                    <option value="PB">Public Vehicle</option>
+                    <option value="MC">Motor Cycle</option>
+                </select>
+            </div>
+            <div class="input-field col s12 m4 l4">
+                <select name="offenceType" id="offenceType">
+                    <option value="">Offence</option>
+                    <option value="RD">Reckless Driving</option>
+                    <option value="HR">Harassment</option>
+                    <option value="BR">Bribery</option>
+                    <option value="HNR">Hit and Run</option>
+                    <option value="SP">Speeding</option>
+                    <option value="AC">Accident</option>
+                    <option value="OT">Other</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12 m12 l12">
+                <textarea name="offenceDescription" id="offenceDescription" class="materialize-textarea"></textarea>
+                <label for="offenceDescription">Description of the Offence</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12 m6 m6">
+                <input name="location" type="text" id="location" required>
+                <label for="location">Location</label>
+            </div>
+            <div class="input-field col s12 m6 m6">
+                <input name="date" type="text" id="date" required>
+                <label for="date">Date in YYYY-MM-DD format</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12 m4 m4">
+                Image(s): &nbsp;
+                <input type="file" name="image" id="image" accept="image/*" multiple>
+            </div>
+            <div class="input-field col s12 m4 m4">
+                Video(s): &nbsp;
+                <input type="file" name="video" id="video" accept="video/*" multiple>
+            </div>
+            <div class="input-field col s12 m4 m4">
+                Audio(s): &nbsp;
+                <input type="file" name="audio" id="audio" accept="audio/*" multiple>
+            </div>
+        </div>
+
+       </fieldset>
+
+        <br><br>
+
+       <fieldset id="fieldset" style="padding: 20px; margin: 0 auto;">
+         <label for="fieldset"> <h5>Your Details </h5> </label>
+            <div class="row">
+                <div class="row">
+                    <div class="input-field col s12 m6 l6">
+                        <input name="userNames" type="text" id="userNames" required>
+                        <label for="userNames">Names</label>
+                    </div>
+                    <div class="input-field col s12 m6 l6">
+                        <input name="userIDNumber" type="text" id="userIDNumber">
+                        <label for="userIDNumber">ID Number</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m6 l6">
+                        <input name="userPhoneNumber" type="text" id="userPhoneNumber" required>
+                        <label for="userPhoneNumber">Phone Number</label>
+                    </div>
+                    <div class="input-field col s12 m6 l6">
+                        <input name="userEmail" type="email" id="userEmail" required>
+                        <label for="userEmail">Email</label>
+                    </div>
+                </div>
+            </div>
+       </fieldset>
+        <br><br>
+
+        <center> <input class="waves-effect waves-light teal btn" type="submit"/></center>
+    </form>
+
+    </div>
+{% endblock %}

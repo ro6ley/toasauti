@@ -1,0 +1,158 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/static/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="/static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <title>{% block title %} {% endblock %} | Toa Sauti </title>
+</head>
+<body>
+
+{% block navbar %}
+ <div class="navbar-fixed">
+
+  <nav class="teal">
+    <div class="nav-wrapper">
+      <a href="{% url 'home' %}" class="brand-logo white-text">Toa Sauti</a>
+			<a href="#mobile-demo" data-activates="mobile-demo" class="button-collapse">
+			<i class="material-icons white-text">menu</i> </a>
+
+			<ul class="right hide-on-med-and-down">
+				<li> <a href="{% url 'new_report' %}"> Report </a> </li>
+				<li> <a href="{% url 'about' %}"> About </a> </li>
+			</ul>
+
+			<ul class="side-nav" id="mobile-demo" style="opacity: 0.8;">
+				<li> <a href="{% url 'new_report' %}"> Report </a> </li>
+				<li> <a href="{% url 'about' %}"> About </a> </li>
+			</ul>
+    </div>
+  </nav>
+
+</div>
+
+{% endblock %}
+
+<!-- <div class="container" style="padding: 10px; margin: 0 auto;"> -->
+
+  {% block content %}
+
+  {% endblock %}
+
+<!-- </div> -->
+
+{% block footer %}
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Toa Sauti</h5>
+            <p class="grey-text text-lighten-4">Here you can add more details</p>
+
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li>Link 1</li>
+                    <li>Link 1</li>
+                    <li>Link 1</li>
+                </ul>
+
+          <div id='tag-cloud'>tg</div>
+
+        </div>
+
+        <div class="col l4 offset-l2 s12">
+          <div class="row z-depth-4" style="background-color: white; padding: 10px;">
+            <center><h5>Feedback is welcome</h5></center>
+            <form class="col s12" method="post" action="{% url 'create_feedback' %}" id="" enctype="multipart/form-data">
+              {%  csrf_token %}
+
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="firstName" type="text" class="validate">
+                  <label for="firstName">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="lastName" type="text" class="validate">
+                  <label for="lastName">Last Name</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="message" class="materialize-textarea"></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="row">
+                <!-- <center>
+                <button class="btn waves-effect waves-light teal white-text z-depth-3" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
+                </center> -->
+                  <center> <input class="waves-effect waves-light teal btn white-text" type="submit" value="Submit"/> </center>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">
+            2017 &copy; Toa Sauti.
+            <a class="grey-text text-lighten-4 right" href="{% url 'about' %}">More Details</a>
+        </div>
+    </div>
+  </footer>
+
+  {% endblock %}
+
+
+  <!--  Scripts-->
+  <script src="/static/js/jquery-3.1.1.min.js"></script>
+  <script src="/static/js/materialize.min.js"></script>
+  <script type="text/javascript">
+	    $(document).ready(function(){
+		    $('.button-collapse').sideNav({
+          menuWidth: 200,
+          draggable: true
+        });
+        $('.parallax').parallax();
+	    });
+
+      // $(document).ready(function () {
+      //
+      // });
+
+        $(document).ready(function(){
+            $('select').material_select();
+        });
+
+        $('.datepicker').pickadate({
+            selectMonths: true,
+            selectYears: 15
+        });
+  </script>
+
+  </body>
+</html>
