@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dee46de-9084-4b5f-9755-b3fcef18689c" name="Default" comment="Edited the front end">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0dee46de-9084-4b5f-9755-b3fcef18689c" name="Default" comment="" />
     <ignored path="SchoolProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -96,21 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="64" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="77" column="104" selection-start-line="77" selection-start-column="104" selection-end-line="77" selection-end-column="104" />
+            <state relative-caret-position="229">
+              <caret line="140" column="35" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -131,7 +129,6 @@
         <option value="$PROJECT_DIR$/toasauti/templates/toasauti/error.html" />
         <option value="$PROJECT_DIR$/toasauti/templates/toasauti/about.html" />
         <option value="$PROJECT_DIR$/toasauti/templates/toasauti/thankyou.html" />
-        <option value="$PROJECT_DIR$/toasauti/templates/toasauti/base.html" />
         <option value="$PROJECT_DIR$/toasauti/templates/toasauti/thumb.html" />
         <option value="$PROJECT_DIR$/toasauti/urls.py" />
         <option value="$PROJECT_DIR$/toasauti/views.py" />
@@ -139,6 +136,7 @@
         <option value="$PROJECT_DIR$/toasauti/models.py" />
         <option value="$PROJECT_DIR$/SchoolProject/settings.py" />
         <option value="$PROJECT_DIR$/toasauti/templates/toasauti/index.html" />
+        <option value="$PROJECT_DIR$/toasauti/templates/toasauti/base.html" />
       </list>
     </option>
   </component>
@@ -149,10 +147,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
-    <option name="y" value="79" />
+    <option name="x" value="65" />
+    <option name="y" value="65" />
     <option name="width" value="1019" />
-    <option name="height" value="818" />
+    <option name="height" value="799" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -565,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489748067891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Edited the front end">
+      <created>1489748973793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489748973793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -578,7 +583,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="79" width="1019" height="818" extended-state="0" />
+    <frame x="65" y="65" width="1019" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18059856" sideWeight="0.49103138" order="0" side_tool="false" content_ui="combo" x="850" y="304" width="510" height="482" />
@@ -587,7 +592,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23300971" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23313783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.239819" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13686535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29520866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15805946" sideWeight="0.5089686" order="2" side_tool="true" content_ui="tabs" />
@@ -1030,18 +1035,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/base.html">
+    <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="64" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        <state relative-caret-position="229">
+          <caret line="140" column="35" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/index.html">
+    <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="77" column="104" selection-start-line="77" selection-start-column="104" selection-end-line="77" selection-end-column="104" />
+        <state relative-caret-position="342">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
           <folding />
         </state>
       </provider>
