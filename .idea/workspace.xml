@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dee46de-9084-4b5f-9755-b3fcef18689c" name="Default" comment="" />
+    <list default="true" id="0dee46de-9084-4b5f-9755-b3fcef18689c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/toasauti/templates/toasauti/index.html" afterPath="$PROJECT_DIR$/toasauti/templates/toasauti/index.html" />
+    </list>
     <ignored path="SchoolProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -94,21 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="1114">
               <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="140" column="35" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
+            <state relative-caret-position="266">
+              <caret line="145" column="33" selection-start-line="145" selection-start-column="33" selection-end-line="145" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -135,8 +137,8 @@
         <option value="$PROJECT_DIR$/toasauti/admin.py" />
         <option value="$PROJECT_DIR$/toasauti/models.py" />
         <option value="$PROJECT_DIR$/SchoolProject/settings.py" />
-        <option value="$PROJECT_DIR$/toasauti/templates/toasauti/index.html" />
         <option value="$PROJECT_DIR$/toasauti/templates/toasauti/base.html" />
+        <option value="$PROJECT_DIR$/toasauti/templates/toasauti/index.html" />
       </list>
     </option>
   </component>
@@ -1035,18 +1037,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/index.html">
+    <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="140" column="35" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
+        <state relative-caret-position="1114">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/base.html">
+    <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        <state relative-caret-position="266">
+          <caret line="145" column="33" selection-start-line="145" selection-start-column="33" selection-end-line="145" selection-end-column="33" />
           <folding />
         </state>
       </provider>
