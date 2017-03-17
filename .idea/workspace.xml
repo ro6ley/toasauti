@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dee46de-9084-4b5f-9755-b3fcef18689c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/toasauti/templates/toasauti/base.html" afterPath="$PROJECT_DIR$/toasauti/templates/toasauti/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/toasauti/templates/toasauti/index.html" afterPath="$PROJECT_DIR$/toasauti/templates/toasauti/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SchoolProject/settings.py" afterPath="$PROJECT_DIR$/SchoolProject/settings.py" />
     </list>
     <ignored path="SchoolProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="173" column="82" selection-start-line="173" selection-start-column="82" selection-end-line="173" selection-end-column="82" />
+            <state relative-caret-position="56">
+              <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
                 <element signature="e#6885#6891#0#HTML" expanded="true" />
@@ -138,6 +137,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SchoolProject/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -158,9 +167,9 @@
         <option value="$PROJECT_DIR$/toasauti/views.py" />
         <option value="$PROJECT_DIR$/toasauti/admin.py" />
         <option value="$PROJECT_DIR$/toasauti/models.py" />
-        <option value="$PROJECT_DIR$/SchoolProject/settings.py" />
         <option value="$PROJECT_DIR$/toasauti/templates/toasauti/base.html" />
         <option value="$PROJECT_DIR$/toasauti/templates/toasauti/index.html" />
+        <option value="$PROJECT_DIR$/SchoolProject/settings.py" />
       </list>
     </option>
   </component>
@@ -1076,13 +1085,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/toasauti/templates/admin/change_form.html" />
-    <entry file="file://$PROJECT_DIR$/SchoolProject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SchoolProject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1153,8 +1155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/toasauti/templates/toasauti/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="173" column="82" selection-start-line="173" selection-start-column="82" selection-end-line="173" selection-end-column="82" />
+        <state relative-caret-position="56">
+          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#a#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
             <element signature="e#6885#6891#0#HTML" expanded="true" />
@@ -1177,6 +1179,14 @@
             <element signature="n#style#0;n#a#9;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
             <element signature="e#7912#7918#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SchoolProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
