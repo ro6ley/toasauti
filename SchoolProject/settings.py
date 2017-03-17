@@ -67,10 +67,10 @@ WSGI_APPLICATION = 'SchoolProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'toa_sauti',
-        'USER': 'root',
-        'PASSWORD': 'toor',
-        'HOST': 'localhost',
+        'NAME': 'NaiRobley$toasauti',
+        'USER': 'NaiRobley',
+        'PASSWORD': 't0asaut1',
+        'HOST': 'NaiRobley.mysql.pythonanywhere-services.com',
         #'PORT': '',
     }
 }
