@@ -13,7 +13,7 @@ SECRET_KEY = 'ro6xjss3xufg(fe6kxca(4%&bzn@j(_dnvhlwmgxrn!wh3w$wt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['nairobley.pythonanywhere.com']
+ALLOWED_HOSTS = ['nairobley.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
