@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dee46de-9084-4b5f-9755-b3fcef18689c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SchoolProject/settings.py" afterPath="$PROJECT_DIR$/SchoolProject/settings.py" />
-    </list>
+    <list default="true" id="0dee46de-9084-4b5f-9755-b3fcef18689c" name="Default" comment="" />
     <ignored path="SchoolProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />

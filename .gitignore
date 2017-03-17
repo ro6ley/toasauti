@@ -3,3 +3,4 @@ toasauti/static/uploads/image/*
 toasauti/static/uploads/video/*
 toasauti/.idea/*
 *.pyc
+SchoolProject/settings.py
