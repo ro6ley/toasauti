@@ -52,7 +52,7 @@ def create_report(request):
 
         obj.save()
 
-        return render(request, 'toasauti/thankyou.html', context={'names': obj.userNames})
+        return render(request, 'toasauti/thankyou.html', context={'names': obj.userNames, 'content': 'report'})
 
 
 @api_view(['GET', 'POST'])
@@ -105,7 +105,7 @@ def create_feedback(request):
 
         fb.save()
 
-        return render(request, 'toasauti/thankyou.html', context={'names': fb.firstName})
+        return render(request, 'toasauti/thankyou.html', context={'names': fb.firstName, 'content': 'feedback'})
     else:
         message = "There was an error submitting your feedback"
         return render(request, 'toasauti/error.html', context={'message': message})

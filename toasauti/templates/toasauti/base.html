@@ -26,11 +26,15 @@
 			<i class="material-icons white-text">menu</i> </a>
 
 			<ul class="right hide-on-med-and-down">
-				<li> <a href="{% url 'new_report' %}"> Report </a> </li>
-				<li> <a href="{% url 'about' %}"> About </a> </li>
+				<li> <a href="{% url 'new_report' %}" class="white-text"> Report </a> </li>
+				<li> <a href="{% url 'about' %}" class="white-text"> About </a> </li>
 			</ul>
 
 			<ul class="side-nav" id="mobile-demo" style="opacity: 0.8;">
+                <div class="">
+					<img src="/static/img/background1.jpg" style="height: 100px; width: 200px;">
+				</div>
+				<div class="divider"></div>
 				<li> <a href="{% url 'new_report' %}"> Report </a> </li>
 				<li> <a href="{% url 'about' %}"> About </a> </li>
 			</ul>
@@ -76,39 +80,30 @@
 
               <div class="row">
                 <div class="input-field col s6">
-                  <input id="firstName" type="text" class="validate">
+                  <input id="firstName" name="firstName" type="text" class="validate">
                   <label for="firstName">First Name</label>
                 </div>
                 <div class="input-field col s6">
-                  <input id="lastName" type="text" class="validate">
+                  <input id="lastName" name="lastName" type="text" class="validate">
                   <label for="lastName">Last Name</label>
                 </div>
               </div>
 
               <div class="row">
                 <div class="input-field col s12">
-                  <input id="email" type="email" class="validate">
+                  <input id="email" name="email" type="email" class="validate">
                   <label for="email">Email</label>
                 </div>
               </div>
 
               <div class="row">
-                <form class="col s12">
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <textarea id="message" class="materialize-textarea"></textarea>
+                  <div class="input-field col s12">
+                      <textarea id="message" name="message" class="materialize-textarea"></textarea>
                       <label for="message">Message</label>
-                    </div>
                   </div>
-                </form>
               </div>
 
               <div class="row">
-                <!-- <center>
-                <button class="btn waves-effect waves-light teal white-text z-depth-3" type="submit" name="action">Submit
-                    <i class="material-icons right">send</i>
-                  </button>
-                </center> -->
                   <center> <input class="waves-effect waves-light teal btn white-text" type="submit" value="Submit"/> </center>
               </div>
 

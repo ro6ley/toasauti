@@ -28,5 +28,12 @@ class ReportAdmin(admin.ModelAdmin):
                        )
     actions = [make_followed_up]
 
+
+class FeedbackAdmin(admin.ModelAdmin):
+    fields = ['firstName', 'lastName', 'email', 'message']
+    list_display = ['email', 'firstName', 'lastName', 'message']
+    readonly_fields = ['firstName', 'lastName', 'email', 'message']
+
+
 admin.site.register(Report, ReportAdmin)
-admin.site.register(Feedback)
+admin.site.register(Feedback, FeedbackAdmin)
