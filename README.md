@@ -32,7 +32,7 @@ And then install the requirements
 ```
 pip install requirements.txt
 ```
-Configure the database variables after creating the database
+Create the database
 ```
 configure the database variables and migrate
 ```
@@ -56,7 +56,6 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
