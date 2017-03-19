@@ -3,7 +3,7 @@
 A tool to help the public report traffic offenses to the authorities. This is my fourth year project in pursuit of a Bachelors Degree in Information Technology.
 
 ## Live Version
-[Toa Sauti](http://nairobley.pythonanywhere.com/) - Leave feedback if you can
+[Toa Sauti](http://nairobley.pythonanywhere.com/) - Feedback will be highly appreciated. Submit via the form at the bottom of the page
 
 ## Getting Started
 
