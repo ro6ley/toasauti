@@ -52,7 +52,7 @@ To deploy the system follow the instructions posted below
 
 * **Robley Gori**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/NaiRobley/toasauti/graphs/contributors) who participated in this project.
 
 ## License
 
