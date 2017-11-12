@@ -1,4 +1,5 @@
-# Toa Sauti
+  [![HitCount](http://hits.dwyl.io/nairobley/toasauti.svg)](http://hits.dwyl.io/nairobley/toasauti)
+# Toa Sauti 
 
 A tool to help the public report traffic offenses to the authorities. This is my fourth year project in pursuit of a Bachelors Degree in Information Technology.
 
